@@ -1,0 +1,134 @@
+.back{
+  display: flex;
+  flex-direction: column;
+  justify-content:baseline;
+  min-width: 800px;
+  max-width: 1200px;
+  margin: 0 auto; 
+  
+}
+
+.top{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.inputandbutton{
+  width: 100%;
+  height: 100px;
+  border-radius: 20px;
+  background-color: rgb(228, 231, 220);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.button{
+  width: 150px;
+  height: 50px;
+  background-color: aquamarine;
+  font-size: medium;
+  font-weight: bolder;
+  gap: 50px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  
+}
+
+.box{
+  width : 300px;
+  height : 220px;
+  border :5px solid green;
+  border-radius: 10px;
+  display :flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+  margin: 1px;
+}
+
+.boxbutton{
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap : 10px;
+  
+}
+
+.zone{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px;
+  gap: 5px;
+}
+.del{
+  background-color: #fff;
+    border: 2px solid red;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 40px;
+    width: 50%;
+}
+
+.fin{
+  background-color: #fff;
+    border: 2px solid green;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 40px;
+    width: 50%;
+}
+
+.input{
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 뷰포트 높이의 100% */
+  position: relative; /* 상대적 위치 설정 */
+}
+
+.detail-content {
+  width: 300px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative; /* 상대적 위치 설정 */
+}
+
+.detail-id {
+  position: absolute;
+  top: 10px; /* 상단으로부터의 간격 */
+  left: 10px; /* 왼쪽으로부터의 간격 */
+  font-size: 1rem;
+  color: grey;
+}
+
+.detail{
+  margin: 10px;
+  align-self: start;
+}
