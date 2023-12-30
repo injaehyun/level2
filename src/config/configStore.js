@@ -1,11 +1,12 @@
-import {createStore} from "redux"
-import { combineReducers } from "redux"
-import Todos from "../modules/Todos";
+// 스토어 설정 파일
 
+import { createStore, combineReducers } from 'redux';
+import reducer from '../modules/Todos';
 
 const rootReducer = combineReducers({
-    Todos: Todos,
+  todos: reducer
 });
+
 const store = createStore(rootReducer);
 
 export default store;
